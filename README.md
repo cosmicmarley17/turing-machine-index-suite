@@ -8,4 +8,4 @@ Decoder mode accepts a user-input index number and generates the instructions fo
 ## Usage
 Run `main.py` in Python.
 ## License
-This software is licensed under the GNU General Public License v3.0. See LICENSE.txt for more details.
+This software is licensed under the GNU General Public License v3.0. See LICENSE for more details.
