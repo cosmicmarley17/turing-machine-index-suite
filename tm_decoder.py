@@ -74,17 +74,17 @@ def main():
     input_approved = False
     while input_approved == False:
         try:
-            tm_index = int(input("Enter a Turing machine index as a positive integer: "))
+            tm_index = int(input("Enter a Turing machine index as a non-negative integer: "))
         except KeyboardInterrupt:
             print("\nQuitting... goodbye!")
             exit()
         except:
-            print("Invalid input! Must be a positive integer")
+            print("Invalid input! Must be a non-negative integer")
             continue
-        ## Accept integer only if it's positive
+        ## Accept integer only if it's non-negative
         if tm_index >= 0:
             input_approved = True
         else:
-            print("Invalid input! Must be a positive integer")
+            print("Invalid input! Must be a non-negative integer")
     ## Decode number to lines of instructions and print them
     print_instructions(prime_factorize(tm_index),tm_index)

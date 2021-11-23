@@ -64,7 +64,7 @@ def main():
     while input_approved == False:
         try:
             ## Get Turing machine instructions from user input
-            tm_input = input("Enter a sequence of Turing machine instructions as positive integers delimited only by spaces.\nThe first instruction you enter should be 0, for the start state!\nEnter instructions: ")
+            tm_input = input("Enter a sequence of Turing machine instructions as non-negative integers delimited only by spaces.\nThe first instruction you enter should be 0, for the start state!\nEnter instructions: ")
 
             tm_instructions = tm_input.split() ## splits string of input into array of isolated instructions
             tm_instructions = list(map(int, tm_instructions)) ## converts str elements in list to int elements
