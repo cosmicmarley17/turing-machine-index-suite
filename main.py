@@ -1,9 +1,5 @@
 ##
 # Main program to run the Turing machine indexer and decoder programs.
-# 
-# Title:        Turing Machine Index Suite
-# Author:       Owen Sullivan
-# Version:      1.0.0
 ##
 
 import tm_indexer
